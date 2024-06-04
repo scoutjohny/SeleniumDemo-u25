@@ -17,6 +17,7 @@ public class Selenium {
         driver.findElement(By.cssSelector("#login-button")).click();
 
         System.out.println(driver.getTitle());
+        System.out.println("Vežbamo Selenium");
 
 
         driver.get("https://www.google.com");
