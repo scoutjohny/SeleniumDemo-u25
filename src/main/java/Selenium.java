@@ -1,4 +1,3 @@
-import dev.failsafe.internal.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,13 +16,14 @@ public class Selenium {
         driver.findElement(By.cssSelector("#login-button")).click();
 
         System.out.println(driver.getTitle());
+        System.out.println("Vežbamo Selenium");
 
 
         driver.get("https://www.google.com");
         driver.findElement(By.cssSelector("[name='q']")).sendKeys("Torte i kolači");
         driver.findElement(By.cssSelector("[name='btnK']")).click();
 
-
+        driver.findElement(By.)
         Thread.sleep(5000);
 
 
